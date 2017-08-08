@@ -23,7 +23,7 @@ import java.util.List;
  * Created by chris on 2017/8/7.
  */
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-class LocalJobService extends JobService {
+public class LocalJobService extends JobService {
     private static final String TAG = "LocalJobService";
     private static final String KEY_LOCAL_SERVICE_NAME = LocalService.class.getName();
     private static final String KEY_REMOTE_SERVICE_NAME = RemoteService.class.getName();

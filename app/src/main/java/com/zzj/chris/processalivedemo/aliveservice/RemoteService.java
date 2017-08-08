@@ -22,7 +22,7 @@ import com.zzj.chris.processalivedemo.R;
  *
  * Created by chris on 2017/8/7.
  */
-class RemoteService extends Service implements ServiceConnection {
+public class RemoteService extends Service implements ServiceConnection {
     
     private static final String TAG = "RemoteService";
     

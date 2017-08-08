@@ -22,7 +22,7 @@ import com.zzj.chris.processalivedemo.R;
  * <p>
  * Created by chris on 2017/8/7.
  */
-class LocalService extends Service implements ServiceConnection {
+public class LocalService extends Service implements ServiceConnection {
     
     private static final String TAG = "LocalService";
     
